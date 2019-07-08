@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="#ff3108"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity20">
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="3">
+        <TextView
+                android:textColor="#FFFFFF"
+                android:background="#8000ff"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/tv1" android:layout_weight="1"
+                android:textSize="120sp" android:paddingLeft="10sp" android:textStyle="normal|bold|italic"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="3">
+        <TextView
+                android:text="   How You Want To Play ?"
+                android:textColor="#FFFFFF"
+                android:background="#8000ff"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/tv2" android:layout_weight="1"
+                android:textSize="33sp" android:paddingLeft="10sp" android:textStyle="normal|bold|italic"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:background="#8000ff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="7" android:paddingLeft="90sp"
+            android:paddingTop="150sp" android:paddingRight="10sp" android:paddingBottom="0sp">
+        <Button
+                android:text="SINGLE PLAYER"
+                android:background="@drawable/fourborder"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_width="189dp"
+                android:layout_height="wrap_content" android:id="@+id/easy" android:layout_marginRight="50sp"
+        />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:background="#8000ff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="7" android:paddingLeft="90sp"
+            android:paddingRight="10sp" android:paddingTop="5sp">
+
+        <Button
+                android:text="MULTI PLAYER"
+                android:background="@drawable/fourborder"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_width="189dp"
+                android:layout_height="wrap_content" android:id="@+id/hard"/>
+    </LinearLayout>
+</LinearLayout>

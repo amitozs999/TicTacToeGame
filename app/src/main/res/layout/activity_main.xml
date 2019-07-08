@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="#ff3108"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="1.5">
+        <TextView
+                android:text="Player 1 score is : 0"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/view_border"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/tv1" android:layout_weight="1"
+                android:textSize="30sp" android:paddingLeft="10sp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="1.5">
+        <TextView
+                android:text="Player 2 score is : 0"
+                android:layout_width="wrap_content"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/view_border"
+                android:layout_height="match_parent" android:id="@+id/tv2" android:layout_weight="1"
+                android:textSize="30sp" android:paddingLeft="10sp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="#ff3108"
+            android:layout_height="wrap_content" android:layout_weight="3">
+        <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_height="match_parent" android:id="@+id/tv3" android:layout_weight="1"
+                android:textSize="20sp" android:paddingTop="50sp" android:paddingLeft="110sp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="2" android:paddingLeft="10sp"
+            android:paddingRight="10sp">
+        <Button
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="50sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/btn1" android:layout_weight="1"
+        />
+        <Button
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="50sp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/btn2" android:layout_weight="1"
+        />
+        <Button
+                android:background="@drawable/button_border2"
+                android:textColor="#FFFFFF"
+                android:textSize="50sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/btn3" android:layout_weight="1"
+        />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="2" android:paddingLeft="10sp"
+            android:paddingRight="10sp">
+        <Button
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="50sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/btn4" android:layout_weight="1"
+        />
+        <Button
+                android:background="@drawable/button_border"
+                android:textColor="#FFFFFF"
+                android:textSize="50sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" android:id="@+id/btn5" android:layout_weight="1"
+        />
+        <Button
+                android:background="@drawable/button_border2"
+                android:layout_width="wrap_content"
+                android:textSize="50sp"
+                android:textColor="#FFFFFF"
+                android:layout_height="match_parent" android:id="@+id/btn6" android:layout_weight="1"
+        />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="2" android:paddingLeft="10sp"
+            android:paddingRight="10sp">
+        <Button
+                android:background="@drawable/button_border1"
+                android:layout_width="wrap_content"
+                android:textSize="50sp"
+                android:textColor="#FFFFFF"
+                android:layout_height="match_parent" android:id="@+id/btn7" android:layout_weight="1"
+                android:paddingLeft="10sp"/>
+        <Button
+                android:background="@drawable/button_border1"
+                android:layout_width="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="50sp"
+                android:layout_height="match_parent" android:id="@+id/btn8" android:layout_weight="1"
+        />
+        <Button
+                android:background="#ff3108"
+                android:layout_width="wrap_content"
+                android:textSize="50sp"
+                android:textColor="#FFFFFF"
+                android:layout_height="match_parent" android:id="@+id/btn9" android:layout_weight="1"
+        />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:background="#ff3108"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="2.5" android:paddingLeft="60sp"
+            android:paddingTop="40dp" android:paddingRight="10sp">
+        <Button
+                android:text="RESET"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content" android:id="@+id/rstbtn" android:layout_marginRight="50sp"/>
+        <Button
+                android:text="BACK"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content" android:id="@+id/backbtn"/>
+    </LinearLayout>
+</LinearLayout>
